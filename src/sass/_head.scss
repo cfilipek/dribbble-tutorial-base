@@ -11,25 +11,59 @@ $dark-red: #AD6A68;
 
 .header {
   padding: 48px;
+
+  &__logo {
+    color: $beige;
+    text-align: center;
+    width: 92px;
+    margin: 0 auto;
+  }
+
+  &__title {
+    font-family: $display-font;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  &__subtitle {
+    font-family: $body-text;
+    font-size: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+
+  &__heading {
+    margin-top: 90px;
+  }
+
+  &__heading-subtitle {
+    font-family: $body-text;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    color: $beige;
+  }
+
+  &__heading-title {
+    margin-top: 20px;
+    font-family: $display-font;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 36px;
+    color: $red;
+  }
+
+  &__image-container {
+    position: absolute;
+    top: 300px;
+    opacity: 20%;
+    z-index: -1;
+  }
+
+  &__image {
+    width: 80%;
+  }
 }
 
-.logo {
-  color: $beige;
-  text-align: center;
-  width: 92px;
-  margin: 0 auto;
-}
 
-.title {
-  font-family: $display-font;
-  font-size: 14px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
-
-.subtitle {
-  font-family: $body-text;
-  font-size: 7px;
-  text-transform: uppercase;
-  font-weight: 700;
-}
