@@ -1,0 +1,68 @@
+/*--------------------------
+    base settings
+---------------------------*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #FEF5F7;
+}
+
+/*--------------------------
+    head styling
+---------------------------*/
+.header {
+  padding: 48px;
+}
+.header__logo {
+  color: #AD7B7C;
+  text-align: center;
+  width: 92px;
+  margin: 0 auto;
+}
+.header__title {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.header__subtitle {
+  font-family: "Open Sans", sans-serif;
+  font-size: 7px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.header__heading {
+  margin-top: 90px;
+}
+.header__heading-subtitle {
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
+  color: #AD7B7C;
+}
+.header__heading-title {
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 36px;
+  color: #DD5748;
+}
+.header__image-container {
+  position: absolute;
+  top: 300px;
+  opacity: 20%;
+  z-index: -1;
+}
+.header__image {
+  width: 80%;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
