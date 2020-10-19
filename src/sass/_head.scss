@@ -1,0 +1,35 @@
+/*--------------------------
+    head styling
+---------------------------*/
+
+$display-font : 'Playfair Display', serif;
+$body-text: 'Open Sans', sans-serif;
+$background-color: #FEF5F7;
+$beige: #AD7B7C;
+$red: #DD5748;
+$dark-red: #AD6A68;
+
+.header {
+  padding: 48px;
+}
+
+.logo {
+  color: $beige;
+  text-align: center;
+  width: 92px;
+  margin: 0 auto;
+}
+
+.title {
+  font-family: $display-font;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-family: $body-text;
+  font-size: 7px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
