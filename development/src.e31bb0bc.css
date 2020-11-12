@@ -10,7 +10,7 @@
 }
 
 body {
-  background-color: #FEF5F7;
+  background-color: #fef5f7;
 }
 
 /*--------------------------
@@ -65,6 +65,117 @@ body {
 }
 .header__image {
   width: 60%;
+}
+
+/*--------------------------
+    cta section styling
+---------------------------*/
+.cta {
+  padding: 48px;
+  overflow-x: hidden;
+}
+.cta__title {
+  font-family: "Playfair Display", serif;
+  color: #dd5748;
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 150px;
+}
+.cta__body-text {
+  margin-top: 34px;
+  font-family: "Open Sans", sans-serif;
+  color: #ad7b7c;
+  font-weight: 600;
+  font-size: 12px;
+}
+.cta__button {
+  font-family: "Playfair Display", serif;
+  color: #ad7b7c;
+  font-size: 12px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 2px solid #ad7b7c;
+  padding: 10px 50px;
+  margin-top: 50px;
+}
+.cta__button-border {
+  border: 2px solid #ad7b7c;
+  height: 36px;
+  width: 180px;
+  margin-top: -34px;
+  margin-left: 6px;
+}
+.cta__headline {
+  margin-top: 20px;
+  white-space: nowrap;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 36px;
+  color: #dd5748;
+  width: 1200px;
+  margin-left: -48px;
+  animation: marquee 20s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(-100%, 0);
+  }
+}
+
+/*--------------------------
+    content section styling
+---------------------------*/
+.content {
+  /* Then style the iframe to fit in the container div with full height and width */
+}
+.content__video-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+.content__video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+.content__mobile-container {
+  padding: 48px 48px 0px 48px;
+}
+.content__title {
+  margin-top: 20px;
+  font-family: "Playfair Display", serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 36px;
+  color: #dd5748;
+}
+.content__mobile-images {
+  margin-top: 38px;
+}
+.content__decoration {
+  width: 26.85px;
+  height: 26.85px;
+  background-color: #dd5748;
+  transform: rotate(-45deg);
+  margin: 0 auto;
+}
+.content__image-1 {
+  margin-bottom: 33px;
+  width: 100%;
+}
+.content__image-2 {
+  margin-top: 33px;
+  width: 100%;
 }
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */
