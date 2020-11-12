@@ -20,7 +20,7 @@ body {
   padding: 48px;
 }
 .header__logo {
-  color: #AD7B7C;
+  color: #ad7b7c;
   text-align: center;
   width: 92px;
   margin: 0 auto;
@@ -45,7 +45,7 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 14px;
-  color: #AD7B7C;
+  color: #ad7b7c;
 }
 .header__heading-title {
   margin-top: 20px;
@@ -53,16 +53,18 @@ body {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 36px;
-  color: #DD5748;
+  color: #dd5748;
 }
 .header__image-container {
   position: absolute;
   top: 300px;
+  right: 20px;
   opacity: 20%;
   z-index: -1;
+  text-align: end;
 }
 .header__image {
-  width: 80%;
+  width: 60%;
 }
 
 /*# sourceMappingURL=/src.e31bb0bc.css.map */
